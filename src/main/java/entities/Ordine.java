@@ -2,12 +2,17 @@ package entities;
 
 import enums.StatoOrdine;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public class Ordine {
-    int numeroTavolo;
-    StatoOrdine statoOrdine;
+    int numeroTavolo;// L'ordine è associato a un tavolo
+    List<DettagliMenu> elemntiMenu; // numero aritrario di elementi menu
     int numeroOrdine;
-    List<DettagliMenu> elemntiMenu;
+    StatoOrdine statoOrdine;
+    int numeroCoperti;
+    LocalDate OraOrdine;
+
+
 
 }
