@@ -1,4 +1,4 @@
-package entities;
+package FrancescaBattistini.LezioneSpring2.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

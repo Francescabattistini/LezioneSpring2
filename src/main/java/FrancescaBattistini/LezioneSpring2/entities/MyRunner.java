@@ -1,4 +1,4 @@
-package entities;
+package FrancescaBattistini.LezioneSpring2.entities;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

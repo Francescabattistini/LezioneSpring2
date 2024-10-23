@@ -1,6 +1,6 @@
 package FrancescaBattistini.LezioneSpring2;
 
-import entities.Menu;
+import FrancescaBattistini.LezioneSpring2.entities.Menu;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

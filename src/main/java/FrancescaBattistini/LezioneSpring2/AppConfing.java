@@ -1,14 +1,15 @@
 package FrancescaBattistini.LezioneSpring2;
 
-import entities.Drinks;
-import entities.Menu;
-import entities.Pizzas;
-import entities.Toppings;
+import FrancescaBattistini.LezioneSpring2.entities.Drinks;
+import FrancescaBattistini.LezioneSpring2.entities.Menu;
+import FrancescaBattistini.LezioneSpring2.entities.Pizzas;
+import FrancescaBattistini.LezioneSpring2.entities.Toppings;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 
 @Configuration//essenziale per creare i beans
+
 public class AppConfing {
     // Beans TOPPINGS
     @Bean
